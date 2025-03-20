@@ -53,10 +53,10 @@ ROOT_URLCONF = 'webchiteeee.urls'
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',  # Template engine to use
+        'DIRS': [BASE_DIR / 'templates']  # Directories to look for templates
         ,
-        'APP_DIRS': True,
+        'APP_DIRS': True, # Look for templates within each app's "templates" folder
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
