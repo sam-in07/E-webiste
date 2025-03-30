@@ -71,7 +71,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'webchiteeee.wsgi.application'
-
+AUTH_USER_MODEL = 'accounts.Account'
+#eta accounst armodels ar
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
